@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        side{
+            
+            display: flex;
+            padding: 15px;
+            background-color: #F1F1F1;
+            justify-content: space-between;
+
+            
+          
+           
+        }
+        .left {
+            
+            margin-left: 0px;
+            /* max-width: 2000px;
+            max-height: 2000px; */
+            background-color: #FFFFFF;
+            border: 5px solid blue;
+            font-size: 50px;
+            margin-right: 30px;
+            padding: 10px;
+            border-radius: 10px;
+            width: 200px;
+            height: 800px;
+            margin-top: 20px;
+        
+           
+          
+            
+        }
+        .right {
+            margin-top: 20px;
+            
+            text-align: center;
+            width: 400px;
+            height: 800px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            font-size: 50px;
+            margin-right: 90px;
+
+            padding: 10px;
+            border: 5px solid blue;
+
+           
+            
+            
+        }
+        @media screen and (max-width: 768px) {
+            side{
+                flex-direction: column;
+                
+
+                
+            }
+           
+            .left {
+            
+            margin-left: 0px;
+            text-align: center;
+            
+           
+            background-color: #FFFFFF;
+            border: 5px solid blue;
+            font-size: 10px;
+            margin-right: 30px;
+            padding: 5px;
+            border-radius: 5px;
+            width: 270px;
+            height: 150px;
+            margin-top: 20px;
+            font-size: 20px;
+        
+           
+          
+            
+        }
+        .right {
+            
+            margin-left: 0px;
+            /* max-width: 2000px;
+            max-height: 2000px; */
+            background-color: #FFFFFF;
+            border: 5px solid blue;
+            font-size: 10px;
+            margin-right: 30px;
+            padding: 5px;
+            border-radius: 5px;
+            width: 270px;
+            height: 150px;
+            margin-top: 20px;
+            font-size: 20px;
+        
+           
+          
+            
+        }
+ }
+ 
+        
+
+
+    </style>
+</head>
+<body>
+    <side>
+        <div class="left">
+           <h3>Left</h3> 
+
+        </div>
+        <div class="right">
+            <h3>Right</h3>
+
+        </div>
+    </side>
+</body>
+</html>
